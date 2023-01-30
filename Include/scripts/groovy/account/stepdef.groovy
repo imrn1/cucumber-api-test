@@ -47,8 +47,8 @@ import customKeyword.Verify
 
 class stepdef {
 
-	private String body
-	private ResponseObject response
+	public String body
+	public ResponseObject response
 
 
 	@Given("Get personal account with account number (.*)")
@@ -60,6 +60,18 @@ class stepdef {
 
 		println("body : \n"+body)
 	}
+	
+	
+	@Given("Get wallet info with account number (.*) and (.*)")
+	def WalletInfo(String account_number, String wallet_number) {
+		
+		body = """{
+"account_number": "${account_number}",
+"wallet_number": "${wallet_number}"
+}"""
+
+	println("body : \n"+body)
+	}
 
 	@When("send request to (.*) with (.*) method")
 	def sendRequest(String url, String method) {
@@ -68,7 +80,7 @@ class stepdef {
 		response = CustomMethods.sendRequest(url, body, method)
 	}
 
-	@Then("Verify (.*) is (.*).")
+	@Then("Verify (.*) is (.*)")
 	def Verification(String verifyKey, String expectedValue) {
 		println("Then methodu -> verifyKey :"+verifyKey +" expectedValue : "+expectedValue+" expectedValue type : "+expectedValue.getClass())
 		//println("response\n"+response.responseBodyContent)
