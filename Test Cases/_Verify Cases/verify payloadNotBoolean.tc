@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify payloadNotBoolean</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c832df68-762c-4899-b1b5-a30f7fa42a51</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8925964b-c27b-4138-bd18-e8c7e11e21c8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8925964b-c27b-4138-bd18-e8c7e11e21c8</id>
+      <masked>false</masked>
+      <name>servisName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>_set null global value</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7dadfad3-6148-4c4f-b06f-4e5d978c4a67</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>66c3f632-307f-4eff-9aba-2908ff2c4de3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6101a2be-9454-4321-96e1-a8c07d62936d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>66c3f632-307f-4eff-9aba-2908ff2c4de3</id>
+      <masked>false</masked>
+      <name>global_variable</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6101a2be-9454-4321-96e1-a8c07d62936d</id>
+      <masked>false</masked>
+      <name>profile_name</name>
+   </variable>
+</TestCaseEntity>

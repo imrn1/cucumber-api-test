@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>kullanıcıdan alınan degeri global degişkene atar</description>
+   <name>get user input</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9a15ebae-b129-49bc-91e3-d73b1c177796</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f506dce5-6ad9-4d75-9ec0-3caace32d6c7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f7b5d2dc-362a-4e43-8d8f-93ba3a6a768d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c536107e-26fd-44b4-82dd-54897ea67c3f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f506dce5-6ad9-4d75-9ec0-3caace32d6c7</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>null</defaultValue>
+      <description></description>
+      <id>f7b5d2dc-362a-4e43-8d8f-93ba3a6a768d</id>
+      <masked>false</masked>
+      <name>arrayName</name>
+   </variable>
+   <variable>
+      <defaultValue>null</defaultValue>
+      <description></description>
+      <id>c536107e-26fd-44b4-82dd-54897ea67c3f</id>
+      <masked>false</masked>
+      <name>valueName</name>
+   </variable>
+</TestCaseEntity>

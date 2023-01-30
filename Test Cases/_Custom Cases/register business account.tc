@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>verilen sayı kadar işletme hesabı oluşturur</description>
+   <name>register business account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b18dce89-2ad5-447e-bd61-3d164b622e02</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c1f847c8-4518-422b-aabc-dde9edd78af8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'TRY'</defaultValue>
+      <description></description>
+      <id>c1f847c8-4518-422b-aabc-dde9edd78af8</id>
+      <masked>false</masked>
+      <name>currency_code</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify code</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>78c1cd23-b081-4ae0-a7cd-089798849561</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>023a7582-2ac1-4067-80f6-10c72351c384</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>null</defaultValue>
+      <description></description>
+      <id>023a7582-2ac1-4067-80f6-10c72351c384</id>
+      <masked>false</masked>
+      <name>expected_code</name>
+   </variable>
+</TestCaseEntity>

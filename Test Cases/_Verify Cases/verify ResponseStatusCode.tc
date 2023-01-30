@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>200 OK
+400 Bad request</description>
+   <name>verify ResponseStatusCode</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>31ef87e4-bea0-4228-8870-6b7b382d0868</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ee88687e-463b-486d-9242-039855f84e9d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>56033b55-5afd-4143-8dfd-3db846ed2a77</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ee88687e-463b-486d-9242-039855f84e9d</id>
+      <masked>false</masked>
+      <name>expected_ResponseStatusCode</name>
+   </variable>
+   <variable>
+      <defaultValue>null</defaultValue>
+      <description></description>
+      <id>56033b55-5afd-4143-8dfd-3db846ed2a77</id>
+      <masked>false</masked>
+      <name>response</name>
+   </variable>
+</TestCaseEntity>

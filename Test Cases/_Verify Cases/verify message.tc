@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify message</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf2cb145-7653-4a22-ba9e-cdad0d3f75b8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e0385f28-c134-4b1e-85ab-18aa8e4d161a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>null</defaultValue>
+      <description></description>
+      <id>e0385f28-c134-4b1e-85ab-18aa8e4d161a</id>
+      <masked>false</masked>
+      <name>expected_message</name>
+   </variable>
+</TestCaseEntity>

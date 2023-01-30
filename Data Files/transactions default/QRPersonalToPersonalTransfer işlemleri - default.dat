@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>QRPersonalToPersonalTransfer işlemleri - default</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>4c5a5ce5-bada-46d6-adff-a8f6cab3f041</dataFileGUID>
+   <dataSourceUrl>C:\Users\Sipay\Katalon Studio\sts api - TEST\katalon-STS-api.git\Data Files\exel\transactions - Kopya\QRPersonalToPersonalTransfer işlemleri.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>belge</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

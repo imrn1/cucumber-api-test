@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>set sender_account--sender_wallet--receiver_wallet</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2e8d0ef9-2b2c-4357-b618-a131b7aefc3d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>51365f40-fce9-4611-b87a-60445d4457c5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3f7d4da5-4ec4-45a7-b021-7b68ff7e8cfa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d020cfbd-8d7a-4ee7-90f8-c4e7acf5efff</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>51365f40-fce9-4611-b87a-60445d4457c5</id>
+      <masked>false</masked>
+      <name>name_for_sender_account_number</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3f7d4da5-4ec4-45a7-b021-7b68ff7e8cfa</id>
+      <masked>false</masked>
+      <name>name_for_sender_wallet_number</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d020cfbd-8d7a-4ee7-90f8-c4e7acf5efff</id>
+      <masked>false</masked>
+      <name>name_for_receiver_wallet_number</name>
+   </variable>
+</TestCaseEntity>

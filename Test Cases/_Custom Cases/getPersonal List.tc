@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>getPersonal List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf00275c-9e7a-4b52-8634-2d5e59e56f43</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c7473cd5-2e38-4b6a-86ea-963ac1b86201</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fd63ede1-ecbd-450d-a0ef-f412f82e4e0f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>19c67785-ce58-4104-a74e-9b653994934c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f0e42f99-4dfa-400f-9925-ddde1c7e7bda</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7497a101-704e-45ca-bced-f92904bbe806</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description>tüm liste için 0 verilmelidir</description>
+      <id>c7473cd5-2e38-4b6a-86ea-963ac1b86201</id>
+      <masked>false</masked>
+      <name>list_size</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description>filtreleme uygulanmayan listeyi almak için 1 olmalı,  0 :  personal_list içerisindeki account_number a göre filtreleme yapılır</description>
+      <id>fd63ede1-ecbd-450d-a0ef-f412f82e4e0f</id>
+      <masked>false</masked>
+      <name>getAll</name>
+   </variable>
+   <variable>
+      <defaultValue>null</defaultValue>
+      <description></description>
+      <id>19c67785-ce58-4104-a74e-9b653994934c</id>
+      <masked>false</masked>
+      <name>personal_list</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>f0e42f99-4dfa-400f-9925-ddde1c7e7bda</id>
+      <masked>false</masked>
+      <name>writeDoc</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7497a101-704e-45ca-bced-f92904bbe806</id>
+      <masked>false</masked>
+      <name>docName</name>
+   </variable>
+</TestCaseEntity>

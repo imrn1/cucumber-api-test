@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "EC23455EB5B8184158660E19329744FE",
+  "keywordClasses": [
+    {
+      "name": "account.getAccount",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

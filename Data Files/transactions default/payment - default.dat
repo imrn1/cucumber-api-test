@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>payment - default</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>16c024a3-120e-4c66-81eb-b71698f6f6e2</dataFileGUID>
+   <dataSourceUrl>C:\Users\Sipay\Katalon Studio\Yeni klasör\sts api - TEST - Kopya\katalon-STS-api.git\Data Files\exel\transactions - Kopya\payment.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>belge</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

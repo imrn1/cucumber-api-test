@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify KYC level</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fcb45a11-43db-4088-9b8e-19c1e86f0809</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9c417724-52cf-4968-843c-a6232c19db77</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eca40f8c-48b2-4105-9a1c-5d58e738dd5f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dbf9f901-18c3-4665-80a8-3c116ee77210</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>9c417724-52cf-4968-843c-a6232c19db77</id>
+      <masked>false</masked>
+      <name>expected_kyc_level</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>eca40f8c-48b2-4105-9a1c-5d58e738dd5f</id>
+      <masked>false</masked>
+      <name>account_type</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dbf9f901-18c3-4665-80a8-3c116ee77210</id>
+      <masked>false</masked>
+      <name>account_number</name>
+   </variable>
+</TestCaseEntity>

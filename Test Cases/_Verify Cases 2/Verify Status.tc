@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7fb8776d-5ed5-4a65-8bc1-97d5dbfe5635</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fa7f0897-fb89-4349-b2d0-3a9ce93d7fe2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9a7c537a-8115-43de-8595-987263fa8ce4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fa7f0897-fb89-4349-b2d0-3a9ce93d7fe2</id>
+      <masked>false</masked>
+      <name>expected_status</name>
+   </variable>
+   <variable>
+      <defaultValue>this.resObj</defaultValue>
+      <description></description>
+      <id>9a7c537a-8115-43de-8595-987263fa8ce4</id>
+      <masked>false</masked>
+      <name>responseObject</name>
+   </variable>
+</TestCaseEntity>

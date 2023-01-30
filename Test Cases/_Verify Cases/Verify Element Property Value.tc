@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Element Property Value</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>478c8ead-8db3-4565-8c1a-b0261cf1280d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e61f8fbe-4906-4d2e-82b2-b2a212b206cf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fcc92af5-91cb-44b2-ba5a-4396876b785b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1b620955-d919-4e1a-9660-8990ab1f1ede</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e61f8fbe-4906-4d2e-82b2-b2a212b206cf</id>
+      <masked>false</masked>
+      <name>value_name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fcc92af5-91cb-44b2-ba5a-4396876b785b</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+   <variable>
+      <defaultValue>null</defaultValue>
+      <description></description>
+      <id>1b620955-d919-4e1a-9660-8990ab1f1ede</id>
+      <masked>false</masked>
+      <name>response</name>
+   </variable>
+</TestCaseEntity>
