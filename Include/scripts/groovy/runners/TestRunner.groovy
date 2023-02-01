@@ -1,4 +1,4 @@
-package account
+package runners
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -47,7 +47,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions
 (
-features="Include/features/getAccount.feature",
-glue="")
+features="Include/features/wallet-info.feature",
+glue="Include/scripts/groovy/acount/stepdef.groovy")
 class TestRunner {
 }

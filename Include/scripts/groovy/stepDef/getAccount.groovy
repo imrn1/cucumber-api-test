@@ -1,4 +1,4 @@
-package account
+package stepDef
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -42,48 +42,18 @@ import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
-import customKeyword.CustomMethods
-import customKeyword.Verify
 
-class stepdef {
 
-	public String body
-	public ResponseObject response
+class getAccount {
 
 
 	@Given("Get personal account with account number (.*)")
 	def GetPersonalAccount(String account_number) {
 
-		body = """{
+		CommonFunctions.body = """{
 				"account_number": '${account_number}'
 			}"""
 
-		println("body : \n"+body)
-	}
-	
-	
-	@Given("Get wallet info with account number (.*) and (.*)")
-	def WalletInfo(String account_number, String wallet_number) {
-		
-		body = """{
-"account_number": "${account_number}",
-"wallet_number": "${wallet_number}"
-}"""
-
-	println("body : \n"+body)
-	}
-
-	@When("send request to (.*) with (.*) method")
-	def sendRequest(String url, String method) {
-		println url
-		println method
-		response = CustomMethods.sendRequest(url, body, method)
-	}
-
-	@Then("Verify (.*) is (.*)")
-	def Verification(String verifyKey, String expectedValue) {
-		println("Then methodu -> verifyKey :"+verifyKey +" expectedValue : "+expectedValue+" expectedValue type : "+expectedValue.getClass())
-		//println("response\n"+response.responseBodyContent)
-		Verify.VerifyElementPropetyValue(expectedValue.toString(), verifyKey,response)
+		println("body : \n"+CommonFunctions.body)
 	}
 }

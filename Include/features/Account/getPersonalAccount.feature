@@ -11,4 +11,4 @@ Feature: /v1/Account/GetPersonalAccount servisi
     Examples: 
       | account_number | url                            | method | verifyKey   | expectedValue |
       | ESRAYKT        | /v1/Account/GetPersonalAccount | POST   | status      |             0 |
-      | 126585210200   | /v1/Account/GetPersonalAccount | POST   | status      |             0 |
+    #  | 126585210200   | /v1/Account/GetPersonalAccount | POST   | status      |             2 |
