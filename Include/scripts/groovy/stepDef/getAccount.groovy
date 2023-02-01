@@ -1,4 +1,4 @@
-package account
+package stepDef
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -37,17 +37,23 @@ import com.kms.katalon.core.util.KeywordUtil
 
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
+import cucumber.api.java.en.And
+import cucumber.api.java.en.Given
+import cucumber.api.java.en.Then
+import cucumber.api.java.en.When
 
-import org.junit.runner.RunWith;
-import cucumber.api.CucumberOptions;
-import cucumber.api.junit.Cucumber;
 
 
+class getAccount {
 
-@RunWith(Cucumber.class)
-@CucumberOptions
-(
-features="Include/features/getAccount.feature",
-glue="")
-class TestRunner {
+
+	@Given("Get personal account with account number (.*)")
+	def GetPersonalAccount(String account_number) {
+
+		CommonFunctions.body = """{
+				"account_number": '${account_number}'
+			}"""
+
+		println("body : \n"+CommonFunctions.body)
+	}
 }

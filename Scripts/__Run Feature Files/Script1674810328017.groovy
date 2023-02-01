@@ -22,7 +22,21 @@ import org.junit.runner.Result;
 
 
 
+import account.TestRunner
+
+ 
+String[] tags = ['@Olumlu',"not @Olumsuz"]
+ 
 
 
-CucumberKW.runFeatureFile('Include/features/getAccount.feature')
+CucumberKW.runFeatureFileWithTags("Include/features/Account/wallet-info.feature", "@Olumlu") //=> ['@foo', 'not @bar'] -> bu çalışmadı
+
+//CucumberKW.runFeatureFileWithTags("Include/features/wallet-info.feature", "@Olumsuz") //=> ['@foo', 'not @bar'] -> bu çalışmadı
+
+
+//CucumberKW.runFeatureFile('Include/features/getAccount.feature')
+
+//CucumberKW.runWithCucumberRunner(TestRunner.class)
+
+
 

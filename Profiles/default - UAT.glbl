@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>/sts api - TEST/katalon-STS-api.git/Data Files/logs/_excel_log</description>
-      <initValue>'/düzenleme/katalon-STS-api.git/Data Files/logs/_excel_log'</initValue>
+      <initValue>'/cucumber-api-test/api test with cucumber/Data Files/logs/_excel_log'</initValue>
       <name>exelFileLoc</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

@@ -197,7 +197,7 @@ public class CustomMethods<T>{
 	 */
 	public static ResponseObject sendRequest(String endpoint, String body, String requestMethod="POST",
 			String process_description="", String expected_status="", String expected_code="", String expected_message="",
-			String expected_ResponseStatusCode="", String fileName="",isWrite=false ) {
+			String expected_ResponseStatusCode="", String fileName="",Boolean isWrite=false ) {
 
 		RequestObject ro = new RequestObject(GenerateUniqeNumber(8))
 		ro.setRestUrl(GlobalVariable.sts_host+endpoint)
@@ -237,13 +237,14 @@ public class CustomMethods<T>{
 
 			WF.writeExelFile(ro,respObj, s[s.length-1], process_description, expected_status, expected_code,
 					expected_message,expected_ResponseStatusCode, fileName )
-
 		}
-		/*************************************/
 		return respObj
 	}
 
 
+
+
+	/********************************************************************************************************/
 
 	private static RequestObject setRequestHeader(RequestObject req ) {
 
@@ -292,10 +293,6 @@ public class CustomMethods<T>{
 		//	println("içerikte ' işareti yok ")
 		return value
 	}
-
-
-
-
 
 
 
@@ -395,10 +392,15 @@ public class CustomMethods<T>{
 
 
 
-	/************************************************************************************/
 
-	// read json file
 
+
+
+
+
+
+
+	/*--------------------------------------------------------*/
 
 	public static void getTCNOList() {
 
